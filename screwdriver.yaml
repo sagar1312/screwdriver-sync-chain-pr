@@ -1,8 +1,8 @@
 shared:
   image: node:16
 
-annotations:
-  screwdriver.cd/chainPR: true
+# annotations:
+#   screwdriver.cd/chainPR: true
 
 jobs:
   test:
