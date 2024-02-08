@@ -9,6 +9,10 @@ jobs:
     requires: [~pr, ~commit]
     steps:
       - echo "test"
+  test-pr:
+    requires: [~pr]
+    steps:
+      - echo "test"
   test2:
     requires: [test]
     steps:
